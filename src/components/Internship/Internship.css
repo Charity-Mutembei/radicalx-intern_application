@@ -1,0 +1,24 @@
+/* todo: delete file if not needed */
+.first_section{
+    background-color: #ffff;
+    border-radius: 3vw;
+    margin-right: 1vw;
+}
+.sub_first_section{
+    display: flex;
+    padding: 1.5vw;
+}
+.right_section{
+    background-color: #F6F5F9;
+    border-radius: 2vw;
+    margin-right: 1vw;
+}
+.right_section .heading p {
+    padding-left: 1vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.right_section .intern_content {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

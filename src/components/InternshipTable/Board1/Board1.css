@@ -1,0 +1,20 @@
+.internship_item{
+    background-color: #F6F5F9;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.internship_item p{
+    margin-left: 1vw;
+}
+.internship_item svg {
+    margin-top: 1.5vw;
+    margin-left: 15vw;
+    color: #793EF5;
+}
+.internship_item_content p {
+    margin-right: 9vw;
+    margin-left: 1vw;
+}
+.internship_item_content h4 {
+    margin-left: 1vw;
+}

@@ -1,0 +1,41 @@
+/* todo: delete file if not needed */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=SpaceGrotesk&display=swap');
+
+.internship_label{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.internship_label .grid-template p {
+    font-size: 1.5vw;
+    font-weight: 600;
+    letter-spacing: .2vw;
+}
+.internship_label .grid-template a button {
+    background-color: #793EF5;
+    border: solid #793EF5;
+    display: flex;
+    margin-top: 1vw;
+    font-family: 'Poppins', sans-serif;
+    width: 15vw;
+    height: 2.5vw;
+    border-radius: .5vw;
+    color: #ffff;
+}
+.internship_label .grid-template a{
+    text-decoration: none;
+}
+.internship_label .grid-template a :hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.internship_label .grid-template a button svg {
+    margin-right: .5vw;
+    font-size: 1.5vw;
+    margin-top: .3vw;
+}
+.internship_label .grid-template a button span {
+    font-size: 1vw;
+    margin-top: .3vw;
+}

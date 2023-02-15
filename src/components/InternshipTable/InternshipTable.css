@@ -1,0 +1,45 @@
+/* todo: delete file if not needed */
+.overall_body{
+    margin-top: 1vw;
+    margin-right: 1vw;
+    background-color: #ffff;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.sectional_heading{
+    background-color: #F6F5F9;
+    display: flex;
+}
+.grid-template-a{
+    flex: 7;
+}
+.grid-template-b{
+    flex: 3;
+}
+.grid-template-c{
+    flex: 3;
+}
+.grid-template-d{
+    flex: 4;
+}
+.grid-template-e{
+    flex: 2;
+}
+.learningBoards{ 
+    display: flex;
+}
+.grid-template-1{
+    flex: 7;
+}
+.grid-template-2{
+    flex: 3;
+}
+.grid-template-3{
+    flex: 3;
+}
+.grid-template-4{
+    flex: 4;
+}
+.grid-template-5{
+    flex: 2;
+}

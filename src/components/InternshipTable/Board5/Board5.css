@@ -1,0 +1,9 @@
+.column_5_intern_type{
+    display: flex;
+    align-items: center;
+    place-items: center;
+    margin-top: 2vw;
+}
+.grid-template{
+    flex: .5;
+}
