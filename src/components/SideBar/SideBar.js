@@ -1,4 +1,5 @@
 import React from 'react';
+import RadicallXLogo from './Assets/RadicallX-Black-Logo.svg'; 
 import './SideBar.css';
 
 
@@ -7,7 +8,7 @@ export default function SideBar() {
       <div id='side_bar'>
           <div id='main_container'>
           <div className='logo_section' id='logo_section'>
-              {/* <img src={RadicallXLogo} alt="RadicalXLogo"/>             */}
+              <img src={RadicallXLogo} alt="RadicalXLogo"/>            
           </div>
           <div className='section_links'>
               <div>
