@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=SpaceGrotesk&display=swap');
+
+.body_container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    overflow-x: hidden;
+}
+.side_bar{
+    flex: 1;
+}
+.top_bar{
+    flex: 4;
+    font-family: 'Poppins', sans-serif;
+}

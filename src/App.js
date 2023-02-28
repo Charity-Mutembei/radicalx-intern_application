@@ -1,28 +1,21 @@
 import './App.css'; 
-import SideBar from './components/SideBar/SideBar';
-import Internship from './components/Internship/Internship';
-import InternshipTable from './components/InternshipTable/InternshipTable';
-import MainTitle from './components/MainTitle/MainTitle';
+import HomePage from './components/ArrangeHomePage/HomePage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CreateNewInternships from './components/createNewInternships/createNewInternships';
+
+
 
 function App() {
+ 
   return (
     <>
-      <div className='body_container'>
-        <div className='side_bar'>
-        <SideBar/>
-        </div>
-        <div className='top_bar'>
-          <div className='top_bar_section'>
-            <MainTitle/>
-          </div>
-          <div className='internship_insight_section'>
-            <Internship/>
-          </div>
-          <div className='learning_board'>
-            <InternshipTable/>
-          </div>
-        </div>
-      </div>
+    <Router>
+     <Routes>
+     <Route path='/' element={<HomePage />} />
+     <Route path='/create-new-internship?' element={<CreateNewInternships />} />
+     </Routes>
+      </Router>
+
     </>
   );
 }
